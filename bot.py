@@ -291,7 +291,7 @@ def run_flask():
 async def main():
     """تابع اصلی برنامه"""
     # دریافت توکن از متغیر محیطی
-    TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
+    TELEGRAM_TOKEN = os.environ.get("8888307775:AAE5g3i__hB-mxsuEik187ps09gYWII6pos")
     if not TELEGRAM_TOKEN:
         logger.error("❌ توکن ربات در Environment Variables تنظیم نشده است!")
         return
