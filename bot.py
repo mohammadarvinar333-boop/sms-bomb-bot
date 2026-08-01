@@ -285,11 +285,17 @@ def run_flask():
     app_flask.run(host='0.0.0.0', port=port)
 
 # ==========================================
-= اجرای اصلی
+# اجرای اصلی
 # ==========================================
 
 async def main():
     """تابع اصلی برنامه"""
+    # دریافت توکن از متغیر محیطی
+    TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
+    if not TELEGRAM_TOKEN:
+        logger.error("❌ توکن ربات در Environment Variables تنظیم نشده است!")
+        return
+
     # ایجاد اپلیکیشن
     application = Application.builder().token(TELEGRAM_TOKEN).build()
 

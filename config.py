@@ -1,5 +1,5 @@
 # توکن ربات تلگرام (از @BotFather بگیرید)
-TELEGRAM_TOKEN = "8615695848:AAFV71ZiRq3UdM2oY_IFMldLf0q72Zd49so"
+TELEGRAM_TOKEN = "8888307775:AAE5g3i__hB-mxsuEik187ps09gYWII6pos"
 
 # لیست APIهای عمومی برای ارسال پیامک
 # این APIها را می‌توانید اضافه یا کم کنید
